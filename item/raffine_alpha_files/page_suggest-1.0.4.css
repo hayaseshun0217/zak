@@ -1,0 +1,234 @@
+/* version 1.0.4 */
+
+@charset "euc-jp";
+
+#rakutenLimitedId_header #suggest * {
+ list-style: none none !important;
+ list-style-type: none !important;
+ font-style: normal !important;
+ font-variant: normal !important;
+ font-weight: normal !important;
+ font-family: "£Í£Ó £Ð¥´¥·¥Ã¥¯", sans-serif !important;
+ quotes: none !important;
+ counter-reset: none !important;
+ counter-increment: none !important;
+ content: normal !important;
+ border-collapse: separate !important;
+ border-spacing: 0 !important;
+ opacity: 1 !important;
+ box-sizing: content-box !important;
+ outline: none !important;
+ table-layout: auto !important;
+ letter-spacing: normal !important;
+ z-index: auto !important;
+ caption-side: top !important;
+ clip: auto !important;
+ text-decoration: none !important;
+ text-indent: 0 !important;
+ text-transform: none !important;
+ direction: ltr !important;
+ empty-cells: show !important;
+ unicode-bidi: normal !important;
+ vertical-align: top !important;
+ visibility: visible !important;
+ word-spacing: normal !important;
+ max-height: none !important;
+ max-width: none !important;
+ min-height: 0 !important;
+ min-width: 0 !important;
+ left: auto !important;
+ bottom: auto !important;
+ top: auto !important;
+ right: auto !important;
+ white-space: nowrap !important;
+ position: static !important;
+ text-align: left !important;
+ overflow: hidden !important;
+ cursor: auto !important;
+ background: none no-repeat none fixed left top !important;
+ margin: 0 !important;
+ float: none !important;
+ padding: 0 !important;
+ border: none !important;
+ height: auto !important;
+ width: auto !important;
+ clear: none !important;
+ color: #000000 !important;
+ line-height: 18px !important;
+ font-size: 11pt !important;
+ /* for ie */
+ zoom: 1 !important;
+ overflow-x: hidden !important;
+ overflow-y: hidden !important;
+ text-autospace: none !important;
+ text-justify: auto !important;
+ text-underline-position: below !important;
+ word-break: normal !important;
+ word-wrap: normal !important;
+ writing-mode: lr-tb !important;
+ layout-grid: none !important; 
+ ime-mode: auto !important;
+ line-break: normal !important;
+ ruby-align: auto !important;
+ ruby-overhang: auto !important;
+ ruby-position: inline !important;
+ background-position-x: left !important;
+ background-position-y: top !important;
+ behavior: none !important;
+ /* css3 */
+ background-clip: border-box !important;
+ background-origin: padding-box  !important;
+ background-size: auto  !important;
+ border-radius: 0  !important;
+ border-image: none 100% 1 0 stretch !important;
+ box-decoration-break: slice !important;
+ box-shadow: none !important;
+ transform: none  !important;
+ transform-origin: 50% 50% !important;
+ transform-style: flat !important;
+ perspective: none !important;
+ box-orient: inline-axis !important;
+ box-direction: normal !important;
+ box-ordinal-group: 1 !important;
+ box-align: stretch !important;
+ box-flex: 0.0 !important;
+ box-flex-group: 1 !important;
+ box-pack: start !important;
+ box-lines: single !important;
+ columns: auto auto !important;
+ column-gap: normal !important;
+ column-rule: medium none #FFFFFF !important;
+ break-after: auto !important;
+ break-before: auto !important;
+ break-inside: auto  !important;
+ column-span: 1  !important;
+ column-fill: balance !important;
+ word-break: normal !important;
+ text-wrap: normal !important;
+ word-wrap: normal !important;
+ text-justify: auto !important;
+ text-shadow: none !important;
+ ruby-position: before !important;
+ ruby-align: auto !important;
+ ruby-overhang: none !important;
+ ruby-span: none !important;
+ font-size-adjust: none !important;
+ font-stretch: normal !important;
+}
+
+#rakutenLimitedId_header #suggest div {
+ display: block !important;
+}
+
+#rakutenLimitedId_header #suggest span {
+ display: inline !important;
+ height: auto !important;
+}
+
+#rakutenLimitedId_header #suggest strong {
+ display: inline !important;
+ font-weight: bold !important;
+}
+
+#rakutenLimitedId_header #suggest .sggstSelect strong {
+ color: #FFFFFF !important;
+ background-color: #3366CC !important;
+}
+
+
+/* suggest-2.0.1.css */
+
+html {
+  filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+#rakutenLimitedId_header #suggest {
+ z-index: 2147483647 !important; /* MAX */
+ background:#ffffff none repeat scroll 0 0 !important;
+ border:1px solid #000000 !important;
+ cursor:default !important;
+ line-height:18px !important;
+ margin:0 !important;
+ position:absolute !important;
+ width:290px !important;
+ display: none !important;
+ max-height: 150px !important;
+}
+#rakutenLimitedId_header #suggest .sggstKeyword {
+ background:#ffffff none repeat scroll 0 0 !important;
+ overflow:hidden !important;
+ padding-left:3px !important;
+ padding-right:3px !important;
+ text-align:left !important;
+ white-space:nowrap !important;
+ float:left !important;
+ width:284px !important;
+}
+#rakutenLimitedId_header #suggest .sggstSelect .sggstKeyword {
+ background:#3366CC none repeat scroll 0 0 !important;
+ color:#ffffff !important;
+ cursor:pointer !important;
+}
+#rakutenLimitedId_header #suggest .sggstComment{
+ padding: 0 5px !important;
+ background-color:#ffffff !important;
+ overflow: hidden !important;
+}
+#rakutenLimitedId_header #suggest .sggstComment .sggstCommentbox{
+ border-top: 1px dotted #aeaeae !important;
+ background-color:#ffffff !important;
+ color:#808080 !important;
+ font-size:12px !important;
+ padding-top: 2px !important;
+ clear:both !important;
+}
+#rakutenLimitedId_header #suggest .sggstBetabtn01{
+ float: left !important;
+ display: inline !important;
+}
+#rakutenLimitedId_header #suggest .sggstBetabtn02{
+ float: right !important;
+ display: inline !important;
+ width: 101px !important;
+}
+#rakutenLimitedId_header #suggest .sggstHidetext{
+ float: left !important;
+ display: inline !important;
+}
+#rakutenLimitedId_header #suggest .sggstHideimg {
+ display : block  !important;
+ width: 102px !important;
+ height: 18px !important;
+ overflow: hidden !important;
+ background: url(http://image.www.rakuten.co.jp/com/img/home/beta/201011/new_on_4.gif) no-repeat left top !important;
+ cursor : pointer !important;
+}
+#rakutenLimitedId_header #suggest .sggstHideimg:hover {
+ background: url(http://image.www.rakuten.co.jp/com/img/home/beta/201011/new_hover_4.gif) no-repeat left top !important;
+}
+#rakutenLimitedId_header #suggest .sggstHideimg{
+ float: right !important;
+ display: inline !important;
+}
+#rakutenLimitedId_header #suggest .betaimg {
+ width: 25px !important;
+ height: 18px !important;
+ overflow: hidden !important;
+ background: url(http://image.www.rakuten.co.jp/com/img/home/beta/201011/beta01.gif) no-repeat left top !important;
+}
+#rakutenLimitedId_header #suggest .sggstInputWrap .openSuggest {
+ display: block !important;
+ background: url(http://image.www.rakuten.co.jp/com/img/home/beta/201011/new_off_23.gif) no-repeat center right !important;
+ cursor: pointer !important;
+ height: 18px !important;
+ right: 3px !important;
+ position: absolute !important;
+ top: 1px !important;
+ width: 20px !important;
+}
+#rakutenLimitedId_header #suggest .sggstInputWrap .openSuggest:hover {
+ background: url(http://image.www.rakuten.co.jp/com/img/home/beta/201011/new_hover_23.gif) no-repeat center right !important;
+}
+#rakutenLimitedId_header #suggest .sggstInputWrap {
+ position:relative !important;
+ width:30px !important;
+}

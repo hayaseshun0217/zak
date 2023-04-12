@@ -1,0 +1,192 @@
+@charset "euc-jp";
+
+div.shopBookmarkArea {
+  color: #000000 !important;
+  z-index: 10000 !important;
+  text-align:left !important;
+  margin:0 !important;
+  padding:0 !important;
+  white-space: normal !important;
+}
+div.shopBookmarkArea a {
+  color: #1d54a7 !important;
+  text-decoration: none !important;
+}
+div.shopBookmarkArea div.shopBkm {
+  margin: 0 !important;
+  padding: 7px 0 !important;
+  overflow: hidden !important; /* clearfix */
+  zoom: 1 !important; /* clearfix */
+}
+div.shopBookmarkArea div.shopBkm a.addShopBkm {
+  position: relative !important;
+  float: left !important;
+  display: block !important;
+  width: 130px !important;
+  height: 22px !important;
+  margin-right: 5px !important;
+}
+div.shopBookmarkArea div.shopBkm a.addShopBkm span.shopBkmStar {
+  display: inline-block !important;
+  width: 130px !important;
+  height: 21px !important;
+  margin-right: 4px !important;
+  background: url(../img/btn_shop_regist_rs.gif) no-repeat 0 0 !important;
+  cursor: pointer !important;
+}
+div.shopBookmarkArea div.shopBkm a.addShopBkm span {
+  vertical-align: -8px;
+}
+
+/* ------------------------------------------------------------
+
+Bookmark Dialog
+
+------------------------------------------------------------ */
+/* reset */
+div#shopBkmDlogArea div,
+div#shopBkmDlogArea div#bkmDlog div,
+div#shopBkmDlogArea div#bkmDlog dl,
+div#shopBkmDlogArea div#bkmDlog dt,
+div#shopBkmDlogArea div#bkmDlog dd,
+div#shopBkmDlogArea div#bkmDlog ul,
+div#shopBkmDlogArea div#bkmDlog li,
+div#shopBkmDlogArea div#bkmDlog p {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  text-align:left !important;
+  color: #000 !important;
+  background-color: transparent !important;
+}
+div#shopBkmDlogArea {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  text-align:left !important;
+  color: #000 !important;
+  background-color: #ffffff !important;
+}
+div#shopBkmDlogArea div#bkmDlog ul,
+div#shopBkmDlogArea div#bkmDlog li {
+  list-style: none !important;
+}
+div#shopBkmDlogArea div#bkmDlog img {
+  border-width: 0;
+}
+div#shopBkmDlogArea div#bkmDlog a {
+  color: #1d54a7 !important;
+  text-decoration: none !important;
+}
+div#shopBkmDlogArea div#bkmDlog a:hover {
+  color: #bf0000 !important;
+  text-decoration: underline !important;
+}
+/* Change hasLayout to false forcibly.(IE7 - IE8) */
+div#shopBkmDlogArea div#bkmDlog div.bkmContent {
+  display: block\9 !important;
+  height: auto\9 !important;
+  width: auto\9 !important;
+  float: none\9 !important;
+  position: static\9 !important;
+  writing-mode: lr-tb\9 !important;
+  zoom: normal\9 !important;
+  *min-height: auto !important;
+  *max-height: none !important;
+  *min-width: auto !important;
+  *max-width: none !important;
+  *overflow: visible !important;
+  *overflow-x: visible !important;
+  *overflow-y: visible !important;
+}
+/* Change hasLayout to false forcibly.(IE9) */
+div#shopBkmDlogArea div#bkmDlog div.bkmContent:not(:target) {
+  display: block\9 !important;
+  height: auto\9 !important;
+  width: auto\9 !important;
+  float: none\9 !important;
+  position: static\9 !important;
+  writing-mode: lr-tb\9 !important;
+  zoom: normal\9 !important;
+}
+/* bkmDlog */
+div#shopBkmDlogArea {
+  display: none;
+  position: absolute !important;
+  margin-top: 24px !important;
+  margin-left: 120px !important;
+  *margin-left: -130px !important;
+  z-index: 10001 !important;
+  max-width: 340px !important;
+  overflow:hidden !important;
+  border-top: 1px solid #686868 !important;
+  border-right: 1px solid #686868 !important;
+  border-bottom: 1px solid #686868 !important;
+  border-left: 1px solid #686868 !important;
+  box-shadow: 3px 3px #cecece !important;
+  -moz-box-shadow: 3px 3px #cecece !important;
+  -webkit-box-shadow: 3px 3px #cecece !important;
+  -o-box-shadow: 3px 3px #cecece !important;
+  -ms-box-shadow: 3px 3px #cecece !important;
+}
+div#shopBkmDlogArea div#bkmDlog.bkmDlogMedium {
+  width:303px !important;
+}
+div#shopBkmDlogArea div#bkmDlog.bkmDlogSmall {
+  width:228px !important;
+}
+div#shopBkmDlogArea div#bkmDlog div.bkmClose {
+  padding: 4px !important;
+  float: right !important;
+}
+div#shopBkmDlogArea div#bkmDlog div.bkmClose a {
+  display: inline-block !important;
+  width: 15px !important;
+  height: 15px !important;
+  background: url(../img/dialog/icn_close_gray.gif) no-repeat 0 0 !important;
+}
+div#shopBkmDlogArea div#bkmDlog div.bkmContent {
+  padding: 23px !important;
+  font-size: 13px !important;
+}
+div#shopBkmDlogArea div#bkmDlog p.bkmContentMsg {
+  color: #bf0000 !important;
+  font-weight: bold !important;
+}
+div#shopBkmDlogArea div#bkmDlog p.bkmLineSpace8 {
+  margin: 0 0 8px 0 !important;
+}
+div#shopBkmDlogArea div#bkmDlog p.bkmLineSpace17 {
+  margin: 0 0 17px 0 !important;
+}
+div#shopBkmDlogArea div#bkmDlog ul.bkmOption {
+  margin: 0 auto 10px auto !important;
+  overflow: hidden !important;
+  zoom: 1 !important;
+  width: 240px !important;
+}
+div#shopBkmDlogArea div#bkmDlog ul.bkmOption li {
+  float: left !important;
+  display: inline !important;
+  text-align: center !important;
+  margin-right: 6px !important;
+  width: 113px !important;
+  height: 25px !important;
+}
+div#shopBkmDlogArea div#bkmDlog ul.commonMenu {
+  overflow: hidden !important;
+  zoom: 1 !important;
+}
+div#shopBkmDlogArea div#bkmDlog ul.commonMenu li {
+  padding-left: 18px !important;
+  background: url(../img/dialog/icon_arrow.gif) no-repeat 6px 9px !important;
+}
+div#shopBkmDlogArea div#bkmDlog div.bkmDialogParams {
+  display: none !important;
+}
+div#shopBkmDlogArea div#bkmDlog div#bkmLoading {
+  float: left !important;
+  display: none;
+}

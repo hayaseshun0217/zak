@@ -1,0 +1,255 @@
+@charset "euc-jp";
+
+div.bookmarkArea {
+  color: #000000 !important;
+  z-index: 10000 !important;
+  text-align:left !important;
+  margin:0 !important;
+  padding:0 !important;
+  white-space: normal !important;
+}
+div.bookmarkArea a {
+  color: #1d54a7 !important;
+  text-decoration: none !important;
+}
+div.bookmarkArea div.bkm {
+  margin: 0 !important;
+  padding: 7px 0 !important;
+  overflow: hidden !important; /* clearfix */
+  zoom: 1 !important; /* clearfix */
+}
+div.bookmarkArea div.bkm a.addBkm {
+  position: relative !important;
+  float: left !important;
+  display: block !important;
+  width: 110px !important;
+  height: 22px !important;
+  margin-right: 5px !important;
+}
+div.bookmarkArea div.bkm a.addBkm span.bkmStar {
+  display: inline-block !important;
+  width: 110px !important;
+  height: 21px !important;
+  margin-right: 4px !important;
+  background: url(../img/btn_item_regist_rs.gif) no-repeat 0 0 !important;
+  cursor: pointer !important;
+}
+div.bookmarkArea div.bkm a.addBkm span {
+  vertical-align: -8px;
+}
+div.bookmarkArea div.bkm span.cntBkm {
+  float: left !important;
+  display: none !important;
+  background: url(../img/tip_right.gif) no-repeat 100% 50% !important;
+}
+div.bookmarkArea div.bkm span.cntBkm span {
+  display: block !important;
+  padding: 4px 6px 3px 16px !important;
+  vertical-align: middle !important;
+  background: url(../img/tip_left.gif) no-repeat 0 50% !important;
+  font-size: 12px !important;
+}
+
+div.bookmarkArea div.bkm span.cntBkmTran {
+  float: left !important;
+}
+div.bookmarkArea div.bkm span.cntBkmTran span.cntBkmArrow {
+  float: left !important;
+  display: block !important;
+  background: url(../img/tip_left_tran.gif) no-repeat 0 50% !important;
+  padding: 4px 0px 3px 4px !important;
+}
+div.bookmarkArea div.bkm span.cntBkmTran span.bkmPersons {
+  float: left !important;
+  display: block !important;
+  background: url(../img/tip_right_tran.gif) no-repeat 100% 50% !important;
+  padding: 5px 6px 4px 6px !important;
+  font-size: 12px !important;
+}
+
+/* ------------------------------------------------------------
+
+Bookmark Dialog
+
+------------------------------------------------------------ */
+/* reset */
+div#bkmDlogArea div,
+div#bkmDlogArea div#bkmDlog div,
+div#bkmDlogArea div#bkmDlog dl,
+div#bkmDlogArea div#bkmDlog dt,
+div#bkmDlogArea div#bkmDlog dd,
+div#bkmDlogArea div#bkmDlog ul,
+div#bkmDlogArea div#bkmDlog li,
+div#bkmDlogArea div#bkmDlog p {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  text-align:left !important;
+  color: #000 !important;
+  background-color: transparent !important;
+}
+div#bkmDlogArea {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  text-align:left !important;
+  color: #000 !important;
+  background-color: #ffffff !important;
+}
+div#bkmDlogArea div#bkmDlog ul,
+div#bkmDlogArea div#bkmDlog li {
+  list-style: none !important;
+}
+div#bkmDlogArea div#bkmDlog img {
+  border-width: 0;
+}
+div#bkmDlogArea div#bkmDlog a {
+  color: #1d54a7 !important;
+  text-decoration: none !important;
+}
+div#bkmDlogArea div#bkmDlog a:hover {
+  color: #bf0000 !important;
+  text-decoration: underline !important;
+}
+/* Change hasLayout to false forcibly.(IE7 - IE8) */
+div#bkmDlogArea div#bkmDlog div.bkmContent {
+  display: block\9 !important;
+  height: auto\9 !important;
+  width: auto\9 !important;
+  float: none\9 !important;
+  position: static\9 !important;
+  writing-mode: lr-tb\9 !important;
+  zoom: normal\9 !important;
+  *min-height: auto !important;
+  *max-height: none !important;
+  *min-width: auto !important;
+  *max-width: none !important;
+  *overflow: visible !important;
+  *overflow-x: visible !important;
+  *overflow-y: visible !important;
+}
+/* Change hasLayout to false forcibly.(IE9) */
+div#bkmDlogArea div#bkmDlog div.bkmContent:not(:target) {
+  display: block\9 !important;
+  height: auto\9 !important;
+  width: auto\9 !important;
+  float: none\9 !important;
+  position: static\9 !important;
+  writing-mode: lr-tb\9 !important;
+  zoom: normal\9 !important;
+}
+/* bkmDlog */
+div#bkmDlogArea {
+  display: none;
+  position: absolute !important;
+  margin-top: 24px !important;
+  *margin-left: -110px !important;
+  z-index: 10001 !important;
+  width: auto !important;
+  overflow:hidden !important;
+  border-top: 1px solid #686868 !important;
+  border-right: 1px solid #686868 !important;
+  border-bottom: 1px solid #686868 !important;
+  border-left: 1px solid #686868 !important;
+  box-shadow: 3px 3px #cecece !important;
+  -moz-box-shadow: 3px 3px #cecece !important;
+  -webkit-box-shadow: 3px 3px #cecece !important;
+  -o-box-shadow: 3px 3px #cecece !important;
+  -ms-box-shadow: 3px 3px #cecece !important;
+}
+div#bkmDlogArea div#bkmDlog.bkmDlogLarge {
+  width:355px !important;
+}
+div#bkmDlogArea div#bkmDlog.bkmDlogMedium {
+  width:303px !important;
+}
+div#bkmDlogArea div#bkmDlog.bkmDlogSmall {
+  width:217px !important;
+}
+div#bkmDlogArea div#bkmDlog div.bkmClose {
+  padding: 4px !important;
+  float: right !important;
+}
+div#bkmDlogArea div#bkmDlog div.bkmClose a {
+  display: inline-block !important;
+  width: 15px !important;
+  height: 15px !important;
+  background: url(../img/dialog/icn_close_gray.gif) no-repeat 0 0 !important;
+}
+div#bkmDlogArea div#bkmDlog div.bkmContent {
+  padding: 23px !important;
+  font-size: 13px !important;
+}
+div#bkmDlogArea div#bkmDlog p.bkmContentMsg {
+  color: #bf0000 !important;
+  font-weight: bold !important;
+}
+div#bkmDlogArea div#bkmDlog p.bkmLineSpace8 {
+  margin: 0 0 8px 0 !important;
+}
+div#bkmDlogArea div#bkmDlog p.bkmLineSpace17 {
+  margin: 0 0 17px 0 !important;
+}
+div#bkmDlogArea div#bkmDlog ul.publicMenu {
+  line-height: 2 !important;
+}
+div#bkmDlogArea div#bkmDlog ul.publicMenu li {
+  padding-left: 10px !important;
+  background: url(../img/tri_f2ab00.gif) no-repeat 0px !important;
+}
+div#bkmDlogArea div#bkmDlog div.snsPost {
+  overflow: hidden !important; /* clearfix */
+  zoom: 1 !important;          /* clearfix */
+  width: 294px !important;          /* clearfix */
+  height: 78px !important;          /* clearfix */
+}
+div#bkmDlogArea div#bkmDlog div.snsPost div.snsPostLoading {
+  text-align: center !important;
+  color:#686868 !important;
+  margin-top: 6px !important;
+}
+div#bkmDlogArea div#bkmDlog div.snsPost div.postResultErr {
+  text-align: center !important;
+  position: relative !important;
+  top: 50% !important;
+  -webkit-transform: translateY(-50%) !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+}
+div#bkmDlogArea div#bkmDlog div.snsPost div.postResultNoAuth {
+  text-align: center !important;
+  position: relative !important;
+  top: 50% !important;
+  -webkit-transform: translateY(-50%) !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+}
+div#bkmDlogArea div#bkmDlog div.snsPost div.postResult ul.postResultList {
+  line-height: 2 !important;
+}
+div#bkmDlogArea div#bkmDlog div.snsPost div.postResult ul.postResultList li.twitterIcon {
+  background: url(../img/dialog/sns_small_iconsw.gif) no-repeat -20px 0 !important;
+  float: left;
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 10px !important;
+  margin-right: 5px !important;
+}
+div#bkmDlogArea div#bkmDlog div.snsPost div.postResult ul.postResultList li.facebookIcon {
+  background: url(../img/dialog/sns_small_iconsw.gif) no-repeat 0 0 !important;
+  float: left;
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 10px !important;
+  margin-right: 5px !important;
+}
+div#bkmDlogArea div#bkmDlog div.snsPost div.postResult ul.postResultList li.mixiIcon {
+  background: url(../img/dialog/sns_small_iconsw.gif) no-repeat -60px 0 !important;
+  float: left;
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 10px !important;
+  margin-right: 5px !important;
+}

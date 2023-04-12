@@ -1,0 +1,179 @@
+.rnkInShopClear {
+	clear: both !important;
+}
+
+/* 表示領域横幅固定設定 */
+#rnkInShopPartsArea {
+	width: 630px !important;
+	background-color: #FFFFFF !important;
+}
+
+#rnkInShopWrapper {
+	min-width: 630px !important;
+	_border-left: 630px solid #FFFFFF !important; /*IE対応*/
+	_zoom: 1 !important; /*IE対応*/
+	padding: 20px 0 !important;
+}
+
+#rnkInShopMain {
+	overflow: hidden !important;
+	margin: 0 auto !important;
+	_position: relative !important; /*IE対応*/
+	_margin-left: -630px !important; /*IE対応*/
+	_zoom: 1 !important; /*IE対応*/
+}
+
+/* タイトル部分 */
+#rnkInShopTitleArea {
+	padding-top: 8px !important;
+}
+#rnkInShopTitle {
+	font-weight: bold !important;
+	display: inline-block !important;
+	font-size: 16px !important;
+	color: #CC0000 !important;
+	float: left !important;
+	margin-top: 4px !important;
+	line-height: 1.2 !important;
+}
+#rnkInShopTitleImg img {
+	float: left !important;
+	padding: 0px 5px 0px !important;
+}
+#rnkInShopDuration {
+	margin: 0 !important;
+	height: auto !important;
+	font-size: 14px !important;
+	text-align: right !important;
+	padding-top: 5px !important;
+	line-height: 1.2 !important;
+	color: #000000 !important;
+}
+/* タイトル部分 */
+
+/* 商品ランキング表示部分 */
+#rnkInShopMainContents {
+	padding-top: 10px !important;
+}
+#rnkInShopRankBox {
+	padding: 0px 15px !important;
+	_padding: 0px !important; /*IE対応*/
+	_margin: 0px 15px !important; /*IE対応*/
+	height: 248px !important;
+}
+.rnkInShopRankFrame {
+	float: left !important;
+	position: relative !important;
+	z-index: 0 !important;
+}
+.rnkInShopRank {
+	padding: 0px 11px !important;
+	width: 95px !important;
+	_width: 117px !important; /*IE対応*/
+	height: 239px !important;
+	top: 0 !important;
+}
+.rnkInShopItemRank {
+	font-weight: bold !important;
+	text-align: left !important;
+	color: #CC0000 !important;
+	font-size: 20px !important;
+	line-height: 1.3!important;
+}
+.rnkInShopItemRankSuffix {
+	font-size: 12px !important;
+}
+.rnkInShopItemImg {
+	width: 95px !important;
+	height: 95px !important;
+	_font-size: 0 !important; /*IE対応*/
+}
+.rnkInShopItemImg a img {
+	border-style: none !important; /*IE対応*/
+}
+.rnkInShopItemName {
+	word-break: break-all !important;
+	word-wrap: break-word !important;
+	text-align: left !important;
+	padding-top: 5px !important;
+	line-height: 1.2 !important;
+	min-height: 50px !important;
+	_height: auto !important; /*IE対応*/
+	_height: 56px !important; /*IE対応*/
+}
+.rnkInShopItemName a {
+	color: #1d54a7 !important;
+	font-size: 14px !important;
+	text-decoration: none !important;
+}
+.rnkInShopItemName a:hover {
+	text-decoration: underline !important;
+	color: #CC0000 !important;
+}
+.rnkInShopStarOn {
+	margin-top: 4px !important;
+	float: left !important;
+	width: 12px !important;
+	height: 12px !important;
+	_font-size: 0 !important; /*IE対応*/
+	background: url("http://a.ichiba.jp.rakuten-static.com/com/img/ranking/parts/inshop/pc/review_star10.gif") no-repeat !important;
+}
+.rnkInShopStarOff {
+	margin-top: 4px !important;
+	float: left !important;
+	width: 12px !important;
+	height: 12px !important;
+	_font-size: 0 !important; /*IE対応*/
+	background: url("http://a.ichiba.jp.rakuten-static.com/com/img/ranking/parts/inshop/pc/review_star10_off.gif") no-repeat !important;
+}
+.rnkInShopStarHalf {
+	margin-top: 4px !important;
+	float: left !important;
+	width: 12px !important;
+	height: 12px !important;
+	_font-size: 0 !important; /*IE対応*/
+	background: url("http://a.ichiba.jp.rakuten-static.com/com/img/ranking/parts/inshop/pc/review_star10_half.gif") no-repeat !important;
+}
+.rnkInShopItemReview {
+	font-size: 10px !important;
+	line-height: 1.3!important;
+	color: #000000!important;
+}
+.rnkInShopItemReview a {
+	text-decoration: none !important;
+	color: #164082 !important;
+}
+.rnkInShopItemReview a:hover {
+	color: #CC0000 !important;
+	text-decoration: underline !important;
+}
+.rnkInShopPrice {
+	word-break: break-all !important;
+	word-wrap: break-word !important;
+	font-weight: bold !important;
+	text-align: left !important;
+	color: #CC0000 !important;
+	line-height: 1.4 !important;
+	font-size: 15px !important;
+}
+.rnkInShopPostage {
+	color: #686868 !important;
+	font-size: 10px !important;
+	line-height: 1.3!important;
+}
+/* 商品ランキング表示部分 */
+
+/* スクロールボタン */
+#rnkInShopButtonLeft {
+	float: left !important;
+	height: 248px !important;
+}
+#rnkInShopButtonRight {
+	float: right !important;
+	height: 248px !important;
+}
+#rnkInShopButtonLeft img, #rnkInShopButtonRight img {
+	margin-top: 40px !important;
+	cursor: pointer !important;
+}
+/* スクロールボタン */
